@@ -7,7 +7,7 @@ This is a sample code taken from the Udemy course Learn NodeJS Authentication by
 It is a good simple example of how to set up jwt
 
 
-##Gotha
+## Gotha
 
         const token = jwt.sign(user.toJSON(), app.get('superSecret'), { expiresIn: 604800 });
 
